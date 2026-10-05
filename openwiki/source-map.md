@@ -44,10 +44,10 @@ sources:
     resource: repo://libs/partners/openai/langchain_openai/chat_models/base.py
   - id: openwiki-source-bd29e79613d5f366a00068f5
     resource: repo://libs/standard-tests/langchain_tests/base.py
-generated: { by: "openwiki/0.5.0", at: "2026-09-29T08:28:34.635Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-10-05T08:37:51.143Z" }
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-29T08:28:34.635Z
+    at: 2026-10-05T08:37:51.143Z
 ---
 
 ## Overview
@@ -283,7 +283,7 @@ The `BaseTool` in `repo://libs/core/langchain_core/tools/base.py` provides:
 ```
 User Applications
   ├─→ langchain (v1.4.3)
-  │    ├─→ langchain-core (v1.6.5)
+  │    ├─→ langchain-core (v1.6.6)
   │    └─→ LangGraph (state machines)
   │
   ├─→ langchain-core (direct use)

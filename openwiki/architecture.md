@@ -34,10 +34,10 @@ sources:
     resource: repo://libs/partners/README.md
   - id: openwiki-source-7da6afe7fe64c6589cf1fed0
     resource: repo://libs/README.md
-generated: { by: "openwiki/0.5.0", at: "2026-09-29T08:28:34.635Z" }
+generated: { by: "openwiki/0.5.0", at: "2026-10-05T08:37:51.143Z" }
 verified:
   - by: openwiki/0.5.0
-    at: 2026-09-29T08:28:34.635Z
+    at: 2026-10-05T08:37:51.143Z
 ---
 
 ## Overview
@@ -292,7 +292,7 @@ The core layer (langchain-core) is intentionally minimal and stable. Orchestrati
 
 ## Versioning and Release Policy
 
-- **langchain-core** (`v1.6.5`): Stable base abstractions. Major version bumps are rare and announced in advance. Deprecations carry multiple minor versions of notice. This is the "least-moving" part of the ecosystem.
+- **langchain-core** (`v1.6.6`): Stable base abstractions. Major version bumps are rare and announced in advance. Deprecations carry multiple minor versions of notice. This is the "least-moving" part of the ecosystem.
 
 - **langchain** (`v1.4.3`): Main user-facing package. Minor versions may add new agent patterns, middleware types, or orchestration improvements. Patch versions fix bugs. Requires specific langchain-core version (e.g., `>=1.6.3,<2.0.0`).
 
