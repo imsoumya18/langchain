@@ -118,7 +118,13 @@ _import_attribute = create_importer(__package__, deprecated_lookups=DEPRECATED_L
 def __getattr__(name: str) -> Any:
     """Get attr name."""
     if name in DEPRECATED_AGENTS:
-        relative_path = as_import_path(Path(__file__).parent, suffix=name)
+        # Get directory of langchain package
+        here = Path(__file__).parents[2]
+        relative_path = as_import_path(
+            Path(__file__).parent,
+            suffix=name,
+            relative_to=here,
+        )
         old_path = "langchain_classic." + relative_path
         new_path = "langchain_experimental." + relative_path
         msg = (
